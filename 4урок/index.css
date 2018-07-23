@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.Items-1 {
+    border: 1px solid silver;
+    order: 1;
+}
+.Items-2 {
+    border: 1px solid silver;
+    order: 1;
+}
+.Items-3 {
+    border: 1px solid silver;
+    order: 1;
+}
