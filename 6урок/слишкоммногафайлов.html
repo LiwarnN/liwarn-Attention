@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>о мышках</title>
+</head>
+<body>
+    <div id="text"></div>
+    <input type="button" id="btn" value="быстро тыкай" onclick="a()">
+    <input type="button" id="btn2" value="Покрасить" onclick="a()">
+    <script>
+        var text = document.getElementById("text");
+        function a() {
+            text.innerHTML = "Ты доволен собой, да? Тебя всё устраивает? Может быть, тебе даже нравится своя жизнь?"
+        }
+        function what() {
+            text.style = "color:darkblue;"
+        }
+    </script>
+</body>
+</html>

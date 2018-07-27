@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>страница напоминалка</title>
+    <script>
+        var change=3000;
+        function pagetime() {
+            alert('прошло 3 секунды, быстрее выбирай свой чебурек!');
+        }
+    </script>
+</head>
+    <body onload="setInterval('pagetime()', change)">
+        <h2>Чебуречная "У бабушки Агафьи"</h2>
+        <input type=button value="тыкни или умрёш" onclick="hel()">
+    </body>
+</html>

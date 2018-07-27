@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>хомяк</title>
+</head>
+<body onclick="alert('Элемент BODY');">
+    <h2>Демонстрация всплывания событий</h2>
+    <BODY>
+        <div onclick="alert('Внешний блок DIV');" style="border-style:solid; width: 330; height: 150">
+            DIV
+            <div oncontextmenu="alert('Внутренний блок DIV');" style="border-style: solid; width: 330; height: 150">
+                DIV<br>
+                <span onmouseover="alert('Элемент SPAN - низший уровень');" style="border-style: solid; width: 80; height: 50;">
+                    SPAN
+                </span>
+            </div>
+        </div>
+    </BODY>
+</body>
+</html>
