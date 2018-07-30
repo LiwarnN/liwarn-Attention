@@ -1,0 +1,13 @@
+.banner-container {
+    display: flex;
+    justify-content: center;
+}
+.product-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-card-wrap {
+    padding: 15px;
+    width: 25%;
+}
