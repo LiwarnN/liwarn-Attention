@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#main {
+    width: 860px;
+    height: 640px;
+    border: 2px solid salmon;
+    margin: 0 auto;
+    background: lightgoldenrodyellow;
+}
+#mainProg {
+    width: 50%;
+    height: 20px;
+    border: 2px solid salmon;
+    margin-left: 25%; 
+    border-radius: 10px;
+}
+#mainPer {
+    margin-top: 340px;
+    width: 50%;
+    margin-left: 25%;
+}
+#prog {
+   
+    height: 20px;
+    background: lightgreen;
+    border-radius: 10px;
+}

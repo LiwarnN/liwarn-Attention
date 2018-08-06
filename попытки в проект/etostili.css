@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.big {
+    height: 50px;
+    border: 3px solid black;
+    text-align: center;
+}
+#items1 {
+    border: 1px dotted darkslateblue;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+}
+#items2 {
+    border: 1px dotted darkslateblue;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 50px;
+}
+#items3 {
+    border: 1px dotted darkslateblue;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 50px;
+}
+#жигуль {
+    border: solid black;
+    height: 134px;
+    width: 80%;
+    margin: auto;
+    background-image: url(длинный.jpg);
+}
